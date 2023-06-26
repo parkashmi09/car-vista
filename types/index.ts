@@ -54,3 +54,8 @@ export interface IShowMoreProps {
   isNextPage: boolean;
   setLimit: Dispatch<SetStateAction<number>>;
 }
+
+export interface ISearchbarProps {
+  setManufacturer: Dispatch<SetStateAction<string>>;
+  setModel: Dispatch<SetStateAction<string>>;
+}
